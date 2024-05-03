@@ -1,5 +1,5 @@
-@import url("https://fonts.google.com/css2?family=Roboto:wght@400;700&display=swap");
-/*https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap site not found, error*/
+@import url("https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
+/*https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap not found, error*/
 
 body {
     font-family: var(--paragraph-font);
@@ -16,7 +16,7 @@ body {
     --heading-font: #252422, serif;
     --paragraph-font: #252422, serif;
 
-    --nav-background-color: rgb(250, 184, 129);
+    --nav-background-color: white;
     --nav-link-color:black;
     --nav-hover-link-color:gray;
     --nav-hover-background-color: #eb5e28;
