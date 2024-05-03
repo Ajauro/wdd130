@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap not found, error*/
 
 body {
@@ -13,8 +13,8 @@ body {
     --accent-color: #EB5E28;
     --additional-accent-color: #403D39;
 
-    --heading-font: #252422, serif;
-    --paragraph-font: #252422, serif;
+    --heading-font: #252422, PT serif;
+    --paragraph-font: #252422, PT serif;
 
     --nav-background-color: white;
     --nav-link-color:black;
