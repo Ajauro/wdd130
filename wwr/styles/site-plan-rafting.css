@@ -1,4 +1,5 @@
 @import url("https://fonts.google.com/?query=serif");
+/*https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap site not found, error*/
 
 body {
     font-family: var(--paragraph-font);
@@ -15,7 +16,7 @@ body {
     --heading-font: #252422, serif;
     --paragraph-font: #252422, serif;
 
-    --nav-background-color: rgb(240, 190, 149);
+    --nav-background-color: rgb(250, 184, 129);
     --nav-link-color:black;
     --nav-hover-link-color:gray;
     --nav-hover-background-color: #eb5e28;
