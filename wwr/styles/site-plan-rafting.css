@@ -17,8 +17,8 @@ body {
     --paragraph-font: #252422, PT serif;
 
     --nav-background-color: #FCA311;
-    --nav-link-color:black;
-    --nav-hover-link-color: white;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #FFFCF2;
     --nav-hover-background-color: #14213D;
 }
 
