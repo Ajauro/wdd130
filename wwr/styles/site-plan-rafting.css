@@ -10,8 +10,8 @@ body {
 :root {
     --primary-color: #FCA311;
     --secondary-color: #CCC5B9;
-    --accent-color: #FCA311;
-    --additional-accent-color: #FFFCF2;
+    --accent1-color: #FCA311;
+    --accent2-color: #FFFCF2;
 
     --heading-font: #252422, PT serif;
     --paragraph-font: #252422, PT serif;
