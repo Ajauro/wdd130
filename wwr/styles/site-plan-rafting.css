@@ -1,5 +1,6 @@
+style {
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/*https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap not found, error*/
+}
 
 body {
     font-family: var(--paragraph-font);
@@ -13,7 +14,7 @@ body {
     --accent1-color: #FCA311;
     --accent2-color: #FFFCF2;
 
-    --heading-font: #252422, "Bold 700 italic", serif;
+    --heading-font: #252422, "PT serif", serif;
     --paragraph-font: #252422, "PT serif", serif;
 
     --nav-background-color: #FCA311;
