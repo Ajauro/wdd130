@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --primary-color: #252422;
+    --secondary-color: #CCC5B9;
+    --accent1-color: #FCA311;
+    --accent2-color: #FFFCF2;
+
+    --heading-font: #252422, "PT serif", serif;
+    --paragraph-font: #252422, "PT serif", serif;
+
+    --nav-background-color: #FCA311;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #FFFCF2;
+    --nav-hover-background-color: #14213D;
+}
+
+title {
+
+}
