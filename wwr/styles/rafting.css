@@ -5,6 +5,7 @@
     --secondary-color: #CCC5B9;
     --accent1-color: #FCA311;
     --accent2-color: #FFFCF2;
+    --accent3-color: #14213D;
 
     --heading-font: #252422, "PT serif", serif;
     --paragraph-font: #252422, "PT serif", serif;
@@ -15,6 +16,61 @@
     --nav-hover-background-color: #14213D;
 }
 
-title {
+body {
+    font-family: var(--paragraph-font);
+    max-width: auto;
+    padding: 20px;
+}
 
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding: 5px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent3-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    font-size: 1.1rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--accent2-color);
+    text-decoration: underline;
+    padding: 0.5rem;
+}
+
+.hero {
+    position: absolute;
+}
+
+.hero h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #FFFCF2;
+}
+
+.hero article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #FFFCF2;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
