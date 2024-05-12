@@ -9,11 +9,6 @@
     --heading-font: #252422, "PT serif", serif;
     --paragraph-font: #252422, "PT serif", serif;
 
-    --nav-background-color: #FCA311;
-    --nav-link-color: #000000;
-    --nav-hover-link-color: #FFFCF2;
-    --nav-hover-background-color: #14213D;
-
     --max-width-page: 1500px;
 }
   
@@ -75,7 +70,7 @@ article {
     right: 30px;
     background-color: rgba(252, 237, 237, 0.5); /* Background color with opacity */
     padding: 0.75rem;
-    color: var(--font-color);
+    color: var(--paragraph-font);
 }
   
 article p {
