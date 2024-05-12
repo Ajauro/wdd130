@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-/* Define CSS Variables */
 :root {
     --primary-color: #252422;
     --secondary-color: #CCC5B9;
@@ -18,44 +17,48 @@
     --max-width-page: 1500px;
 }
   
-  body {
+body {
     font-family: var(--heading-font);
     margin: 20px;
-  }
+}
   
-  h1, h2 {
-    color: var(--primary-color); /* Primary color for headings */
-  }
+h1, h2 {
+    color: var(--primary-color);
+}
   
-  p {
+p {
     padding: 20px;
-    color: var(--paragraph-font); /* Secondary color for paragraphs */
-  }
+    color: var(--paragraph-font); 
+}
+
   
-  a {
-    text-decoration: none; /* Remove underline from all links */
-  }
-  
-  .social-links a {
-    text-decoration: none; /* Remove underline from social media links */
-  }
-  
-  /* Hero Container Styles */
-  .hero {
+.social-links a {
+    text-decoration: none; 
+}
+ 
+.hero h1 {
+    position: absolute;
+    color: #FFFCF2;
+    font-size: 3rem;
+    top: 30px;
+    background-color: rgba(14, 9, 31, 0.411);
+}
+
+.hero {
     position: relative;
     width: 100%;
-    height: 400px; /* Adjust as needed */
+    height: 400px; 
     background-size: cover;
     background-position: center;
-  }
+}
   
-  .hero img {
+.hero img {
     width: 100%;
-    display: block; /* Make the image a block to fill the container */
-    height: auto; /* Maintain aspect ratio */
-  }
+    display: block; 
+    height: auto;
+}
   
-  h1 {
+h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,27 +66,27 @@
     color: var(--accent2-color);
     font-size: 3rem;
     text-align: center;
-  }
+}
   
-  article {
+article {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
-    padding: 20px;
+    top: 150px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba(252, 237, 237, 0.5); /* Background color with opacity */
+    padding: 0.75rem;
     color: var(--font-color);
-  }
+}
   
-  article p {
+article p {
     margin-bottom: 10px;
-  }
+}
   
-  article img {
+article img {
     float: right;
     margin-left: 10px;
-    max-width: 200px; /* Adjust as needed */
-  }
+    max-width: 200px;
+}
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -112,4 +115,8 @@ section h2 {
     color: #FFFCF2;
     background-color: #14213D;
     text-align: center;
+}
+
+section img {
+    display: inline;
 }
