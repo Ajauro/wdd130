@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+* {
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 :root {
     --primary-color: #252422;
     --secondary-color: #CCC5B9;
@@ -109,7 +116,7 @@ section h2 {
     text-align: center;
 }
 
-.adventures section h2 {
+.adventures h2 {
     color: #FFFCF2;
     background-color: #14213D;
     text-align: center;
@@ -206,16 +213,20 @@ footer {
     color: #14213D;
     text-align: center;
     padding: 1rem 0;
+    position: relative;
 }
 
 footer nav {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 footer nav a img {
-    display: flex;
     width: 30px;
     height: 30px;
 }
