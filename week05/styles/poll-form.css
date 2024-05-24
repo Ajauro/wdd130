@@ -15,7 +15,7 @@ body {
 
 header {
     margin: 0 auto;
-    width: 500px;
+    width: 650px;
 }
 
 h1 {
@@ -26,11 +26,11 @@ h1 {
 }
 
 form {
-    width: 500px;
+    width: 650px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
     background-color: #eeeeee;
     display: grid;
 }
@@ -46,27 +46,27 @@ fieldset {
 legend {
     padding: 0.5rem;
     color: navy;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 label, input, button, select, textarea {
     font-family: "Times New Roman", Times, serif, sans-serif;
-    font-size: 1rem;
+   /* font-size: 1rem; */
 }
 
 label {
     text-align: right;
-    padding-right: 0.5rem;
+    padding-right: 1rem;
 }
 
 input, select, textarea {
-    padding: 0.3rem;
-    font-size: 1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
 input[type="checkbox"] {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     vertical-align: bottom;
 }
 
@@ -75,7 +75,7 @@ button {
     background-color: navy;
     color: #fff;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.2rem;
 }
@@ -86,7 +86,7 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    width: 500px;
+    width: 650px;
     text-align: center;
     font-size: 0.8em;
     color: #777;
@@ -96,6 +96,7 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
+    text-align: center;
 }
 
 .column1 {
@@ -107,6 +108,11 @@ footer {
     grid-template-columns: 1fr 2fr;
 }
 
+
 .form-item label {
+    text-align: center;
+} 
+
+.column1 label {
     text-align: center;
 }
