@@ -255,7 +255,7 @@ footer nav a img {
     flex: 1;
     padding: 20px;
     max-width: fit-content;
-    align-content: left;
+    align-content: center;
 }
 
 .other-content {
