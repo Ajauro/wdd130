@@ -224,7 +224,7 @@ section {
 }
 
 footer {
-    background-color: #CCC5B9;
+    background-color: #ffcc74;
     color: #14213D;
     text-align: center;
     padding: 1rem 0;
@@ -260,12 +260,23 @@ footer nav a img {
 
 .other-content {
     flex: 1;
-    padding: 20px;
+    padding: 100px;
     background-color: #f0f0f0;
 }
 
+.other-content input {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    margin: 0rem auto;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+
 .info-box section {
-    border: 1px solid #ccc;
+    border: 1px solid #FCA311;
 }
 
 .info-box h2 {
@@ -291,29 +302,44 @@ footer nav a img {
     text-align: center;
 }
 
-.employee-images {
+.adventures2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
 
-.employee-images figure {
+.adventures2 figure {
     margin: 0;
-    padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #14213D;
 }
 
-.employee-images img {
+.adventures2 img {
     width: 100%;
     height: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.employee-images figcaption {
+.adventures2 figcaption {
     padding: 0.5rem;
-    background-color: #f0f0f0;
+    background-color: #FCA311;
     font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
 }
 
+.employee {
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #FCA311;
+    margin-top: 0;
+}
 
 
 /*forms*/
@@ -321,18 +347,25 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #FCA311;
     border-radius: 0.5rem;
     background-color: #eeeeee;
-    display: grid;
+    /*display: grid;
+    grid-template-columns: 0.5fr auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    width: 50%;
+    height: auto;*/
+
 }
 
 fieldset {
-    display: grid;
-    grid-gap: 1.5rem;
-    margin: 1rem;
+    display: contents;
+    /*grid-gap: 1.5rem;*/
+   /*margin: 1rem;
     border: none;
-    padding: 1rem;
+    padding: 1rem; */
+    margin-bottom: 1rem;
 }
 
 
@@ -347,6 +380,7 @@ h3 {
     font-size: 1.5em;
     color: navy;
     text-align: center;
+    grid-column: 1/ -1;
 }
 
 label, input, button, select, textarea, form p {
@@ -357,26 +391,35 @@ label, input, button, select, textarea, form p {
 label {
     text-align: right;
     padding-right: 0.5rem;
+    font-size: 1.1rem;
+    align-self: center;
+    color: #14213D;
 }
 
 input, select, textarea {
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 2.5rem;
+    box-sizing: border-box;
+    color: #14213D;
+}
+
+input[type="checkbox"], input[ type="email"] {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    margin: 0rem auto;
     padding: 0.5rem;
-    font-size: 1.1rem;
-}
-
-input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    vertical-align: auto;
-}
-
-input[type="radio"] {
-    width: 15px;
-    height: 15px;
+    font-size: 0.75rem;
 }
 
 button {
-    margin: 1rem;
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
     background-color: navy;
     color: #fff;
     border: none;
@@ -387,4 +430,65 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+form p, form label, form input, form select, form textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 1rem; */
+}
+
+form p {
+    grid-column: 1/ -1;
+    font-size: 1.1rem;
+}
+
+.center-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.center-radio {
+    display: flex;
+    text-align: left;
+}
+
+.center-radio input[type="radio"] {
+    margin-right: 0.5rem;
+    transform: scale(0.3);
+}
+
+.center-radio label {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.larger-textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    height: 5rem;
+}
+
+/*.center-checkbox {
+    display: flex;
+    justify-content: center;
+}*/
+
+.center-checkbox input[type="checkbox"] {
+    margin-right: 0.5rem;
+    /*transform: scale(0.3);*/
+}
+
+.center-checkbox label {
+    display: flex;
+    align-items: center;
+    /*margin-right: 0;*/
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
 }

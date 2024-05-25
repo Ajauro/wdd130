@@ -44,24 +44,23 @@
                     </section>
                 </div>
             </div>
-            <section class="emproyee-images">
+            <section class="employee">
                 <h2>Our Employees and Staff</h2>
-            <figure>
-                <img src="images/happy.jpg" alt="image1">
-                <figcaption>Ready to help you</figcaption>
-            </figure>
-            <figure>
-                <img src="images/happyemployee1.jpg" alt="image2">
-                <figcaption>Funny</figcaption>
-            </figure>
-            <figure>
-                <img src="images/happyemployee2.jpg" alt="image3">
-                <figcaption>Qualified and Trained</figcaption>
-            </figure>
-            <figure>
-                <img src="images/woody-kelly-PO89WXjGcG8-unsplash.jpg" alt="image4">
-                <figcaption>Love their job</figcaption>
-            </figure>
+            </section>
+            <section class="adventures2">
+                <figure>
+                    <img src="images/happyemployee1.jpg" alt="image2">
+                    <figcaption>Ready to Help YOU</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happyemployee2.jpg" alt="image3">
+                    <figcaption>Qualified and Trained</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/woody-kelly-PO89WXjGcG8-unsplash.jpg" alt="image4">
+                    <figcaption>Love their job</figcaption>
+                </figure>
+            </section>
             <div class="other-content">
                 <form>
                     <h3>User Comments</h3>
@@ -74,19 +73,23 @@
 
                     </fieldset>
                     <p>Choose the purpose of the message:</p>
-                    <input type="radio" id="general" name="general">
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="reservation" name="reservation">
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="suggestion" name="suggestion">
-                    <label for="suggestion">Website Suggestion</label>
-                
-                    <fieldset>
-                        <label for="message">Type the message:</label>
-                        <input type="text" name="message" id="message">
+                    <div class="center-radio">
+                        <input type="radio" id="general" name="general">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="suggestion" name="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
 
+                    <fieldset>
+                        <label for="message" class="center-label">Type the message:</label>
+                        <textarea name="message" id="message" class="larger-textarea"></textarea>
+
+                    <div class="center-checkbox">   
                         <label for="subscribe">Please subscribe me to the monthly newsletter!</label>
                         <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
                     </fieldset>
                     <button type="submit">Submit Poll</button>
                 </form>
