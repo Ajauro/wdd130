@@ -275,6 +275,10 @@ footer nav a img {
     font-size: 0.75rem;
 }
 
+.other-content p {
+    text-align: center;
+}
+
 .info-box section {
     border: 1px solid #FCA311;
 }
@@ -404,7 +408,7 @@ input, select, textarea {
     color: #14213D;
 }
 
-input[type="checkbox"], input[ type="email"] {
+input[ type="email"] {
     width: auto;
     height: auto;
     margin-left: 0;
@@ -474,20 +478,20 @@ form p {
     height: 5rem;
 }
 
-/*.center-checkbox {
+.center-checkbox {
     display: flex;
     justify-content: center;
-}*/
+}
 
 .center-checkbox input[type="checkbox"] {
     margin-right: 0.5rem;
-    /*transform: scale(0.3);*/
+    transform: scale(0.4);
 }
 
 .center-checkbox label {
     display: flex;
     align-items: center;
-    /*margin-right: 0;*/
+    margin-right: 0;
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
 }
