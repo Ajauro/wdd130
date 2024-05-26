@@ -138,7 +138,7 @@ header {
 	display: flex;
 	grid-template-columns: auto 1fr;
 	align-items: center;
-	border-bottom: 1px solid #FCA311;
+	border-bottom: 3px solid #FCA311;
 	max-width: 2000px;
     width: 100%;
 }
@@ -156,6 +156,7 @@ img {
 .logo img {
     height: 180px;
     margin-right: 20px;
+    background-color: #fff;
 }
 
 /*.logo-history img {
@@ -180,7 +181,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 80px;
+    margin: 0 90px;
 }
 
 nav ul li a {
@@ -188,7 +189,6 @@ nav ul li a {
     color: #14213D;
     font-weight: bold;
     padding: 5px 10px;
-    
 }
 
 nav ul li a:hover {
@@ -224,8 +224,8 @@ section {
 }
 
 footer {
-    background-color: #ffcc74;
-    color: #14213D;
+    background-color: #14213D;
+    color: #fff;
     text-align: center;
     padding: 1rem 0;
     position: relative;
@@ -340,7 +340,6 @@ footer nav a img {
     border: 1px solid #FCA311;
     margin-top: 0;
 }
-
 
 /*forms*/
 form {
