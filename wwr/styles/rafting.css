@@ -61,6 +61,9 @@ p {
     width: 100%;
     display: block; 
     height: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
   
 h1 {
@@ -194,7 +197,8 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: var(--accent1-color);
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
 }
 
 section {
@@ -216,6 +220,8 @@ section {
 .adventures img {
     width: 100%;
     height: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .adventures figcaption {
@@ -281,7 +287,7 @@ footer nav a img {
 }
 
 .info-box section {
-    border: 1px solid #FCA311;
+    border: 1px solid gray;
 }
 
 .info-box h2 {
@@ -333,7 +339,7 @@ footer nav a img {
 
 .adventures2 figcaption {
     padding: 0.5rem;
-    background-color: #FCA311;
+    background-color: #f0f0f0;
     font-weight: bold;
     margin-left: 0;
     margin-right: 0;
@@ -342,7 +348,7 @@ footer nav a img {
 .employee {
     text-align: center;
     font-size: 1rem;
-    border: 1px solid #FCA311;
+    border: 1px solid gray;
     margin-top: 0;
 }
 
@@ -351,7 +357,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid #FCA311;
+    border: 1px solid #14213D;
     border-radius: 0.5rem;
     background-color: #eeeeee;
     /*display: grid;
@@ -496,3 +502,27 @@ form p {
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
 }
+
+/*Trips*/
+
+.text-trips section h1 {
+    color: #14213D;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0.3rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-trips section p {
+    display: block;
+    padding: 40px;
+    color: var(--accent2-color); 
+    margin-top: 10rem;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    background-color: #14213D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid #FCA311;
+}
+
