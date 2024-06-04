@@ -42,10 +42,10 @@ p {
  
 .hero h1 {
     position: absolute;
-    color: #FFFCF2;
+    color: #14213D;
     font-size: 3rem;
     top: 70px;
-    background-color: rgba(14, 9, 31, 0.411);
+    background-color: rgba(234, 238, 184, 0.411);
 }
 
 .hero {
@@ -78,7 +78,7 @@ h1 {
   
 article {
     position: absolute;
-    top: 140px;
+    top: 200px;
     left: 40px;
     right: 40px;
     background-color: rgba(252, 237, 237, 0.5); /* Background color with opacity */
@@ -226,7 +226,7 @@ section {
 
 .adventures figcaption {
     padding: 0.5rem;
-    background-color: #f0f0f0;
+    background-color: grey;
     font-weight: bold;
 }
 
@@ -256,6 +256,7 @@ footer nav a img {
 
 .main-content {
     display: flex;
+    margin-top: 80px;
 }
 
 .info-box {
@@ -339,7 +340,7 @@ footer nav a img {
 
 .adventures2 figcaption {
     padding: 0.5rem;
-    background-color: #f0f0f0;
+    background-color: grey;
     font-weight: bold;
     margin-left: 0;
     margin-right: 0;
@@ -509,20 +510,109 @@ form p {
     color: #14213D;
     text-align: center;
     font-size: 70px;
-    margin-top: 0.3rem;
-    margin-bottom: 2.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
 }
 
 .text-trips section p {
     display: block;
     padding: 40px;
     color: var(--accent2-color); 
-    margin-top: 10rem;
+    margin-top: 14rem;
     margin-bottom: 0.5rem;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #14213D;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 3px solid #FCA311;
 }
 
+.linha {
+    width: 100% auto;
+    height: 1px;
+    background-color: #14213D;
+    margin: 80px;
+}
+
+.linha1 {
+    width: 100% auto;
+    height: 1px;
+    background-color: #14213D;
+    margin: 80px;
+    margin-top: 0;
+}
+
+.book-now {
+    display: block;
+    background-color: #FCA311;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 5rem;
+    border: 1px solid #14213D;
+    border-radius: 2px;
+}
+
+.book-now a {
+    text-decoration: none;
+    color: #14213D;
+    font-size: 30px;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+}
+
+
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.packages figure {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 350px;
+}
+
+.packages img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.packages figcaption {
+    background-color: lightgray;
+    padding: 0.5rem;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packages .book-now2 a {
+    text-decoration: none;
+    color: #14213D;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #14213D;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.packages .book-now2 a:hover {
+    background-color: #14213D;
+    color: #fff;
+}
+
+.more-info a {
+    color: #14213D;
+    margin-bottom: 40px;
+}
