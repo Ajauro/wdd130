@@ -42,16 +42,15 @@ p {
  
 .hero h1 {
     position: absolute;
-    color: #14213D;
-    top: 70px;
-    background-color: rgba(234, 238, 184, 0.411);
+    top: 80px;
     margin-bottom: 2rem;
     text-align: center;
     transform: translate(-50%, -50%);
-    color: #14213D;
+    color: #fff;
+    text-align: center;
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
 }
 
 .hero {
@@ -276,6 +275,53 @@ footer nav a img {
 
 /*contact us*/
 
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: #14213D;
+}
+
+.hero-section img {
+    width: 100%;
+    display: block; 
+    height: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-text h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
+
+}
+
+.text-trips h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
+}
+
+.text-trips p {
+    display: block;
+    padding: 40px;
+    color: var(--accent2-color); 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    background-color: #14213D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid #FCA311;
+}
+
 .other-content {
     flex: 1;
     padding: 100px;
@@ -298,9 +344,9 @@ footer nav a img {
 .main-content {
     display: flex;
     justify-content: center;
-    padding: 7rem;
+    padding: 1rem;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .info-box {
@@ -383,9 +429,9 @@ footer nav a img {
 }
 
 .employee {
+    margin-top: 3rem;
     text-align: center;
     font-size: 1rem;
-    margin-top: 0;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -551,19 +597,45 @@ form p {
 
 /*Trips*/
 
-.text-trips section h1 {
-    color: #14213D;
+.hero-section {
+    position: relative;
     text-align: center;
-    font-size: 60px;
+    color: #14213D;
+}
+
+.hero-section img {
+    width: 100%;
+    display: block; 
+    height: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-text h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
+
+}
+
+.text-trips h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0 , 0 , 0.5);
 }
 
-.text-trips section p {
+.text-trips p {
     display: block;
     padding: 40px;
     color: var(--accent2-color); 
-    margin-top: 14rem;
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 20px;
     background-color: #14213D;
