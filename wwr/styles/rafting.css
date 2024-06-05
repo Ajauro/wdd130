@@ -862,7 +862,8 @@ form p {
 }
   
 .hero-section2 article p {
-    background-color: #14213dc4; 
+    background-color: #14213D; 
+    border-bottom: 3px solid #FCA311;
     color: #14213D;
     margin-right: 10px;
     margin-top: 10px;
@@ -964,6 +965,7 @@ form p {
 
 .info-box2 p {
     margin: 0;
+    margin-bottom: 5px;
     text-align: left;
     border: 1px solid #14213D;
     border-radius: 2px;
