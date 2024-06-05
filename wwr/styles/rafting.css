@@ -147,7 +147,7 @@ header {
 	display: flex;
 	grid-template-columns: auto 1fr;
 	align-items: center;
-	border-bottom: 3px solid #FCA311;
+	border-bottom: 3px solid #14213D;
 	max-width: 2000px;
     width: 100%;
 }
