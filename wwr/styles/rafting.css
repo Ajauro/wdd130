@@ -634,20 +634,6 @@ form p {
     border-bottom: 3px solid #FCA311;
 }
 
-.linha {
-    width: 100% auto;
-    height: 1px;
-    background-color: #14213D;
-    margin: 80px;
-}
-
-/*.linha1 {
-    width: 100% auto;
-    height: 1px;
-    background-color: #14213D;
-    margin: 80px;
-    margin-top: 0;
-}*/
 
 .book-now {
     display: block;
