@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
@@ -640,13 +641,13 @@ form p {
     margin: 80px;
 }
 
-.linha1 {
+/*.linha1 {
     width: 100% auto;
     height: 1px;
     background-color: #14213D;
     margin: 80px;
     margin-top: 0;
-}
+}*/
 
 .book-now {
     display: block;
@@ -975,7 +976,7 @@ form p {
 .photo {
     flex: 1;
     display: flex;
-    align-items: left;
+    align-items:flex-end;
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
